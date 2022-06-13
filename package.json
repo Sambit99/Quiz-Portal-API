@@ -4,7 +4,8 @@
   "description": "A RestFul Quiz Portal API.",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "nodemon server.js",
+    "start:prod": "SET NODE_ENV=production&&nodemon server.js"
   },
   "repository": {
     "type": "git",
