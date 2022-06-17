@@ -11,6 +11,9 @@ const database = mongoose
   .connect(DB)
   .then(() => {
     console.log(`Database connection successful`);
+    // setTimeout(() => {
+    //   throw new Error("MongoDB Connection Unsuccessful");
+    // }, 10000);
   })
   .catch((err) => {
     console.log(err);
